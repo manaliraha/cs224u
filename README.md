@@ -32,3 +32,10 @@ sys.path.append('/content/cs224u')
 ```
 after this we can import anything from the github repo and work with data like shown in [sample notebook](https://nbviewer.jupyter.org/github/cgpotts/cs224u/blob/master/vsm_01_distributional.ipynb)
 - All normal commands like !ls, !cp, !pwd work as expected
+
+- WordNet
+```bash
+import nltk
+nltk.download('wordnet')
+```
+Then can use any command with wn.lemmas(xxx)
